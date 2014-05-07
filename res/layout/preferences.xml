@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_user_profile" >
+
+        <EditTextPreference
+            android:key="prefUsername"
+            android:summary="@string/pref_user_name_summary"
+            android:title="@string/pref_user_name" />
+
+        <EditTextPreference
+            android:key="prefHousename"
+            android:summary="@string/pref_house_name_summary"
+            android:title="@string/pref_house_name" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_update_setting" >
+
+        <ListPreference
+            android:entries="@array/syncFrequency"
+            android:entryValues="@array/syncFrequencyValues"
+            android:key="prefSyncFrequency"
+            android:summary="@string/pref_sync_frequency_summary"
+            android:title="@string/pref_sync_frequency" />
+
+        <EditTextPreference
+            android:key="prefURLAPI"
+            android:summary="@string/pref_api_url_summary"
+            android:title="@string/pref_api_url" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

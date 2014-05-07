@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="syncFrequency">
+        <item name="1">Una vez cada 1 Min</item>
+        <item name="5">Una vez cada 5 Mins</item>
+        <item name="10">Cada 10 Mins</item>
+        <item name="15">Cada 15 Mins</item>
+        <item name="30">Una vez cada 30 Mins</item>
+        <item name="60">Una vez cada 1 Hora</item>
+    </string-array>
+    <string-array name="syncFrequencyValues">
+        <item name="1">1</item>
+        <item name="5">5</item>
+        <item name="10">10</item>
+        <item name="15">15</item>
+        <item name="30">30</item>
+        <item name="60">60</item>
+    </string-array>
+     
+</resources>
