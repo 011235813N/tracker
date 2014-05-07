@@ -17,4 +17,6 @@ the apps runs from Android os 2.3+ and uses the Android Google Play Services Lib
 In order to run the project in your enviroment, remember download the Google Play Services Lib and add it as lib.
 
 
+Follow me: @netoascencio
+
 
